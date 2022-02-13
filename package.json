@@ -7,7 +7,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "jest --verbose",
-    "test:watch": "jest --watch --verbose"
+    "test:watch": "jest --watch --verbose",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "react": "^17.0.2",
